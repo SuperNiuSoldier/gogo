@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Photo caption weakest overlay",
+    "backgroundOverWhite": [
+      69,
+      75,
+      71
+    ],
+    "whiteTextContrast": 8.93
+  },
+  {
+    "label": "Photo badge and add button",
+    "backgroundOverWhite": [
+      79,
+      86,
+      83
+    ],
+    "whiteTextContrast": 7.53
+  }
+]

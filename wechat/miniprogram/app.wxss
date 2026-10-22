@@ -1,0 +1,10 @@
+page { height: 100%; background: #f7f5ef; }
+view, scroll-view, swiper, swiper-item, button, input, textarea, image { box-sizing: border-box; }
+/* Own the button geometry instead of inheriting platform widths and auto margins.
+   Page variants use .app .class so their explicit sizes/colors override this reset. */
+.app .gogo-button { position: relative; display: block; width: auto; min-width: 0; max-width: 100%; margin: 0; padding: 0; min-height: 44px; border: 0; background: transparent; color: inherit; font: inherit; line-height: 1.5; border-radius: 0; box-shadow: none; text-align: center; overflow: hidden; }
+.app .gogo-button::after { border: 0; }
+.app .gogo-button[disabled] { color: inherit; background: transparent; opacity: .55; }
+input, textarea { font: inherit; color: inherit; }
+image { display: block; }
+.pressed { opacity: .65; }

@@ -1,0 +1,195 @@
+<view class="app theme-{{theme}} skin-{{skin}} {{reducedMotion ? 'reduce-motion' : ''}} {{textScale > 1.2 ? 'large-text' : ''}}" style="--safe-bottom: {{safeBottom}}px; --text-scale: {{textScale}};">
+  <view wx:if="{{skin === 'rouqiu' && themeBackground && !backgroundFailed}}" class="memory-backdrop" aria-hidden="true"><image src="{{themeBackground}}" mode="aspectFill" binderror="backgroundError" /><view class="memory-wash"></view></view>
+  <view wx:if="{{loading}}" class="empty"><text class="empty-title">正在翻开小册子…</text></view>
+  <view wx:elif="{{fatal}}" class="empty"><text class="empty-title">暂时没能打开</text><text class="muted">{{fatal}}</text><text class="muted">原数据仍保留，请勿清除小程序数据。</text></view>
+  <block wx:else>
+    <view class="pet-bar">
+      <scroll-view class="pet-rail" scroll-x enhanced show-scrollbar="{{false}}" scroll-into-view="{{pet ? 'pet-' + pet.id : ''}}">
+        <view class="pet-list">
+        <button wx:for="{{pets}}" wx:key="id" id="pet-{{item.id}}" class="gogo-button pet-chip {{pet.id === item.id ? 'selected' : ''}}" data-id="{{item.id}}" bindtap="onPet" disabled="{{busy}}" aria-label="切换到{{item.name}}{{pet.id === item.id ? '，已选中' : ''}}" hover-class="pressed">
+          <image wx:if="{{item.avatar}}" class="avatar" src="{{item.avatar}}" mode="aspectFill" />
+          <text wx:else class="avatar initial">{{item.initial}}</text><text class="pet-name">{{item.name}}</text>
+        </button>
+        </view>
+      </scroll-view>
+      <button class="gogo-button icon-button" bindtap="addPet" disabled="{{busy}}" aria-label="添加宠物" hover-class="pressed"><image class="icon" src="{{icons['plus']}}" /></button>
+      <button class="gogo-button icon-button" bindtap="openAppearance" disabled="{{busy}}" aria-label="选择主题，当前{{skin === 'rouqiu' ? '肉球主题' : '原色主题'}}" hover-class="pressed"><image class="icon theme-toggle-mark" src="{{skin === 'rouqiu' ? themeLogo : icons[theme === 'light' ? 'moon' : 'sun']}}" /></button>
+    </view>
+
+    <view wx:if="{{!pet}}" class="empty welcome">
+      <image class="welcome-mark" src="{{skin === 'rouqiu' ? themeLogo : icons.paw}}" />
+      <text class="empty-title">认识一下你的小狗</text><text class="muted">从它的名字开始</text>
+      <button class="gogo-button primary" bindtap="addPet" disabled="{{busy}}" hover-class="pressed">添加宠物</button>
+      <button wx:if="{{draft}}" class="gogo-button text-button" bindtap="restoreDraft">继续上次编辑</button>
+    </view>
+    <block wx:else>
+      <view class="heading">
+        <text class="page-title">{{titles[tab]}}</text>
+        <view class="heading-actions">
+          <view wx:if="{{tab === 'album'}}" class="segmented">
+            <button class="gogo-button {{albumMode === 'diary' ? 'active' : ''}}" data-mode="diary" bindtap="setAlbumMode" hover-class="pressed">日记</button>
+            <button class="gogo-button {{albumMode === 'all' ? 'active' : ''}}" data-mode="all" bindtap="setAlbumMode" hover-class="pressed">全部</button>
+          </view>
+          <button class="gogo-button icon-button" bindtap="menu" disabled="{{busy}}" aria-label="更多" hover-class="pressed"><image class="icon" src="{{icons['ellipsis']}}" /></button>
+        </view>
+      </view>
+      <button wx:if="{{draft}}" class="gogo-button draft-banner" bindtap="restoreDraft" disabled="{{busy}}" hover-class="pressed">继续上次编辑 <text>↗</text></button>
+      <button wx:if="{{windowStart > 0}}" class="gogo-button text-button history-return" bindtap="recentHistory">回到最近</button>
+
+      <view wx:if="{{tab === 'album'}}" class="album-content content">
+        <swiper wx:if="{{album.length}}" class="album-swiper" vertical current="{{albumIndex}}" bindchange="onAlbumChange" previous-margin="24px" next-margin="40px" duration="{{reducedMotion ? 0 : 280}}" circular="{{false}}" autoplay="{{playing}}" interval="3500">
+          <swiper-item wx:for="{{album}}" wx:key="id">
+            <view class="album-slide {{index === albumIndex ? 'current' : 'away'}}">
+              <button class="gogo-button paper-card" data-id="{{item.id}}" bindtap="openRecord" hover-class="pressed" aria-label="查看{{item.dateLabel}}的{{item.label}}">
+                <view class="card-meta"><text>{{item.dateLabel}}</text><text>{{item.time}}</text></view>
+                <view wx:if="{{item.mediaCount}}" class="card-photo">
+                  <image wx:if="{{item.cover}}" src="{{item.cover}}" mode="aspectFill" lazy-load class="cover" />
+                  <image wx:else class="video-placeholder" src="{{icons['video']}}" />
+                  <view wx:if="{{item.video}}" class="video-badge"><text>▷</text><text>{{item.durationLabel || '视频'}}</text></view>
+                  <text wx:if="{{item.mediaCount > 1}}" class="count-badge">{{item.mediaCount}}</text>
+                </view>
+                <view wx:else class="card-no-photo"><image src="{{icons[item.icon]}}" class="record-mark" /></view>
+                <text wx:if="{{item.text || !item.mediaCount}}" class="card-text {{!item.mediaCount ? 'text-only' : ''}}">{{item.text || (item.kind === 'weight' ? item.title : item.label)}}</text>
+                <view class="card-bottom"><text>{{windowStart + index + 1}} / {{albumTotal}}</text><image class="small-icon" src="{{icons['arrow-up-right']}}" /></view>
+              </button>
+            </view>
+          </swiper-item>
+        </swiper>
+        <view wx:elif="{{skin === 'rouqiu'}}" class="keepsake {{themeBackground && !backgroundFailed ? 'has-photo' : ''}}">
+          <image wx:if="{{themeBackground && !backgroundFailed}}" class="keepsake-photo" src="{{themeBackground}}" mode="aspectFill" binderror="backgroundError" />
+          <view wx:else class="keepsake-drawing"><view class="keepsake-halo"></view><image class="keepsake-dog" src="{{characterRoot}}sleep.webp" /><text class="keepsake-name">肉球</text></view>
+          <view wx:if="{{themeBackground && !backgroundFailed}}" class="keepsake-caption"><text>肉球</text><image src="{{characterRoot}}logo.webp" /></view>
+        </view>
+        <view wx:else class="empty"><image class="empty-mark" src="{{icons.image}}" /><text class="empty-title">留住第一个瞬间</text><text class="muted">{{pet.name}}的小相册，慢慢装满。</text></view>
+        <button wx:if="{{albumIndex === album.length - 1 && windowStart + album.length < albumTotal}}" class="gogo-button text-button" data-manual="{{true}}" bindtap="loadMore">更早的瞬间</button>
+        <view class="album-actions">
+          <button class="gogo-button icon-button" bindtap="importAlbum" disabled="{{busy}}" aria-label="导入照片或视频" hover-class="pressed"><image class="icon" src="{{icons['image']}}" /></button>
+          <button class="gogo-button primary" bindtap="takePhoto" loading="{{busy}}" disabled="{{busy}}" hover-class="pressed"><image class="button-icon" src="/assets/icons/{{theme === 'light' ? 'dark' : 'light'}}/camera.svg" />记一笔</button>
+          <button class="gogo-button icon-button" bindtap="toggleSlideshow" disabled="{{busy || album.length < 2 || reducedMotion}}" aria-label="{{playing ? '暂停照片流转' : '开始照片流转'}}" hover-class="pressed"><image class="icon" src="{{icons[playing ? 'pause' : 'play']}}" /></button>
+        </view>
+      </view>
+
+      <view wx:if="{{tab === 'footprints'}}" class="content">
+        <scroll-view scroll-y class="timeline-scroll" enhanced show-scrollbar="{{false}}" bindscrolltolower="loadMore" scroll-into-view="{{listAnchor}}">
+          <view wx:if="{{records.length}}" class="timeline">
+            <view class="thread"></view>
+            <view wx:for="{{records}}" wx:key="id" id="entry-{{item.id}}" class="timeline-row {{index % 2 ? 'right' : 'left'}}">
+              <view class="thread-dot"></view>
+              <button class="gogo-button moment" data-id="{{item.id}}" bindtap="openRecord" hover-class="pressed">
+                <view wx:if="{{item.cover}}" class="moment-photo"><image src="{{item.cover}}" mode="aspectFill" lazy-load /><text wx:if="{{item.video}}" class="moment-video">▷</text></view>
+                <image wx:else class="moment-icon" src="{{icons[item.icon]}}" />
+                <text class="moment-date">{{item.dayLabel}} · {{item.time}}</text>
+                <text class="moment-title">{{item.kind === 'weight' ? item.title : item.label}}</text>
+                <text wx:if="{{item.text}}" class="moment-note">{{item.text}}</text>
+              </button>
+            </view>
+          </view>
+          <view wx:else class="empty timeline-empty"><image class="empty-mark" src="{{icons['footprints']}}" /><text class="empty-title">小事也值得记住</text><text class="muted">吃饱了，散步了，又长大一点。</text></view>
+          <button wx:if="{{recordTotal > windowStart + records.length}}" class="gogo-button text-button" data-manual="{{true}}" bindtap="loadMore">更早的小事</button>
+        </scroll-view>
+        <view class="page-action"><button class="gogo-button primary" bindtap="openQuick" disabled="{{busy}}" hover-class="pressed"><image class="button-icon" src="/assets/icons/{{theme === 'light' ? 'dark' : 'light'}}/plus.svg" />记一件小事</button></view>
+      </view>
+
+      <view wx:if="{{tab === 'reminders'}}" class="content reminders-content">
+        <scroll-view scroll-y class="reminders-scroll" enhanced show-scrollbar="{{false}}">
+        <view class="calendar">
+          <view class="calendar-heading">
+            <button class="gogo-button icon-button" data-shift="-1" bindtap="changeWeek" aria-label="上一周"><image class="small-icon" src="{{icons['chevron-left']}}" /></button>
+            <picker mode="date" value="{{day}}" bindchange="changeDate"><view class="month-label">{{monthLabel}}</view></picker>
+            <button class="gogo-button icon-button" data-shift="1" bindtap="changeWeek" aria-label="下一周"><image class="small-icon" src="{{icons['chevron-right']}}" /></button>
+            <button class="gogo-button text-button today-button" bindtap="goToday">今天</button>
+          </view>
+          <view class="calendar-grid"><text wx:for="{{weekdays}}" wx:key="*this" class="weekday">{{item}}</text></view>
+          <view class="calendar-grid">
+            <button wx:for="{{calendar}}" wx:key="date" class="gogo-button day {{item.active ? 'selected' : ''}} {{item.outside ? 'outside' : ''}}" data-day="{{item.date}}" bindtap="pickDay" aria-label="{{item.date}}{{item.active ? '，已选中' : ''}}" hover-class="pressed"><text>{{item.label}}</text><view wx:if="{{item.dot}}" class="day-dot"></view><text wx:elif="{{item.today}}" class="today-label">今天</text></button>
+          </view>
+          <button class="gogo-button calendar-expand" bindtap="expandCalendar" aria-label="{{expanded ? '收起月历' : '展开月历'}}"><image class="small-icon {{expanded ? 'flipped' : ''}}" src="{{icons['chevron-down']}}" /></button>
+        </view>
+        <view class="reminder-divider"><text>{{day}}</text><view class="drawn-rule"></view></view>
+        <view class="reminder-list">
+          <view wx:for="{{reminders}}" wx:key="id" class="reminder-row {{item.done ? 'done' : ''}}">
+            <button class="gogo-button reminder-open" data-id="{{item.id}}" bindtap="editReminder" hover-class="pressed"><image class="icon" src="{{icons['bell']}}" /><view><text class="reminder-title">{{item.title}}</text><text class="muted reminder-time">{{item.time}}</text></view></button>
+            <button class="gogo-button icon-button" data-id="{{item.id}}" bindtap="toggleReminder" disabled="{{busy}}" aria-label="{{item.done ? '恢复待办' : '完成提醒'}}：{{item.title}}"><image class="icon" src="{{icons[item.done ? 'check' : 'circle']}}" /></button>
+          </view>
+          <view wx:if="{{!reminders.length}}" class="empty reminder-empty"><text class="muted">这一天，暂时没有待办</text></view>
+        </view>
+        </scroll-view>
+        <view class="page-action"><button class="gogo-button primary" bindtap="addReminder" disabled="{{busy}}" hover-class="pressed"><image class="button-icon" src="/assets/icons/{{theme === 'light' ? 'dark' : 'light'}}/plus.svg" />记个提醒</button></view>
+      </view>
+
+      <view class="bottom-nav">
+        <button wx:for="{{['album', 'footprints', 'reminders']}}" wx:key="*this" class="gogo-button nav-item {{tab === item ? 'active' : ''}}" data-tab="{{item}}" bindtap="onTab" disabled="{{busy}}" aria-label="{{titles[item]}}{{tab === item ? '，当前页面' : ''}}" hover-class="pressed"><view class="nav-mark"><image class="icon" src="{{icons[item === 'album' ? 'image' : item === 'footprints' ? 'footprints' : 'bell']}}" /></view><text>{{titles[item]}}</text></button>
+      </view>
+    </block>
+    <view wx:if="{{error && !sheet}}" class="error-banner" aria-role="alert">{{error}}</view>
+  </block>
+
+  <view wx:if="{{sheet}}" class="sheet-backdrop" catchtouchmove="noop">
+    <view class="sheet-scrim" bindtap="closeSheet"></view>
+    <view class="sheet" aria-role="dialog" aria-modal="true">
+      <view class="sheet-header">
+        <button class="gogo-button text-button" bindtap="closeSheet" disabled="{{busy}}">{{sheet === 'pet' || sheet === 'record' || sheet === 'reminder' ? '取消' : '关闭'}}</button>
+        <text class="sheet-title">{{sheet === 'pet' ? (form.id ? '狗狗档案' : '认识新朋友') : sheet === 'record' ? (form.id ? '改一改' : '记一件小事') : sheet === 'reminder' ? (form.id ? '提醒' : '新建提醒') : sheet === 'quick' ? '今天的小事' : sheet === 'storage' ? '本地存储' : sheet === 'appearance' ? '主题' : '这个瞬间'}}</text>
+        <button wx:if="{{sheet === 'pet' || sheet === 'record' || sheet === 'reminder'}}" class="gogo-button save-button" bindtap="saveEditor" loading="{{busy}}" disabled="{{busy}}">保存</button>
+        <view wx:else class="header-spacer"></view>
+      </view>
+      <scroll-view scroll-y class="sheet-scroll" enhanced show-scrollbar="{{false}}" style="height: {{sheetHeight}}px;">
+        <view class="sheet-body">
+          <view wx:if="{{error}}" class="field-error" aria-role="alert">{{error}}</view>
+          <block wx:if="{{sheet === 'appearance'}}">
+            <view class="skin-choices">
+              <button class="gogo-button skin-choice {{skin === 'rouqiu' ? 'chosen' : ''}}" data-skin="rouqiu" bindtap="chooseSkin" disabled="{{busy}}" aria-label="肉球主题{{skin === 'rouqiu' ? '，已选择' : ''}}" hover-class="pressed"><image class="skin-portrait" src="{{characterRoot}}logo.webp" /><text>肉球</text><image wx:if="{{skin === 'rouqiu'}}" class="skin-check" src="{{icons.check}}" /></button>
+              <button class="gogo-button skin-choice {{skin === 'classic' ? 'chosen' : ''}}" data-skin="classic" bindtap="chooseSkin" disabled="{{busy}}" aria-label="原色主题{{skin === 'classic' ? '，已选择' : ''}}" hover-class="pressed"><view class="classic-preview"><image src="{{icons.paw}}" /></view><text>原色</text><image wx:if="{{skin === 'classic'}}" class="skin-check" src="{{icons.check}}" /></button>
+            </view>
+            <view class="appearance-row"><text>明暗</text><button class="gogo-button brightness-control" bindtap="toggleTheme" disabled="{{busy}}" aria-label="{{theme === 'light' ? '切换黑棕' : '切换奶白'}}" hover-class="pressed"><image class="small-icon" src="{{icons[theme === 'light' ? 'sun' : 'moon']}}" /><text>{{theme === 'light' ? '奶白' : '黑棕'}}</text><image class="small-icon" src="{{icons['chevron-right']}}" /></button></view>
+
+          </block>
+          <view wx:if="{{sheet === 'quick'}}" class="quick-grid">
+            <button wx:for="{{kinds}}" wx:key="id" class="gogo-button quick-item" data-kind="{{item.id}}" bindtap="quickKind" disabled="{{busy}}" hover-class="pressed"><image class="quick-icon" mode="aspectFit" src="{{icons[item.icon]}}" /><text>{{item.label}}</text></button>
+          </view>
+
+          <block wx:if="{{sheet === 'pet'}}">
+            <view class="avatar-editor"><button class="gogo-button avatar-select" bindtap="chooseAvatar" disabled="{{busy}}"><image wx:if="{{form.avatar}}" class="profile-avatar" src="{{form.avatar}}" mode="aspectFill" /><view wx:else class="profile-avatar"><image class="record-mark" src="{{icons['paw']}}" /></view><text>选一张头像</text></button><button wx:if="{{form.avatar}}" class="gogo-button text-button" bindtap="clearAvatar" disabled="{{busy}}">移除</button></view>
+            <view class="field"><label for="pet-name">名字</label><input id="pet-name" value="{{form.name}}" data-field="name" bindinput="onField" bindblur="flushDraft" maxlength="128" placeholder="怎么称呼它" adjust-position confirm-type="done" /></view>
+            <button class="gogo-button text-button disclosure" bindtap="toggleDetails">{{detailsOpen ? '−' : '+'}} 更多资料 · 选填</button>
+            <block wx:if="{{detailsOpen}}">
+              <view class="field"><view class="field-label-row"><text>生日</text><button wx:if="{{form.birthday}}" class="gogo-button text-button" data-field="birthday" bindtap="clearDate">清除</button></view><picker mode="date" value="{{form.birthday || today}}" end="{{today}}" data-field="birthday" bindchange="onField"><view class="picker-value">{{form.birthday || '还不知道'}}</view></picker></view>
+              <view class="field"><view class="field-label-row"><text>到家日</text><button wx:if="{{form.arrival}}" class="gogo-button text-button" data-field="arrival" bindtap="clearDate">清除</button></view><picker mode="date" value="{{form.arrival || today}}" end="{{today}}" data-field="arrival" bindchange="onField"><view class="picker-value">{{form.arrival || '选个日子'}}</view></picker></view>
+              <view class="field"><label for="pet-note">小特点</label><textarea id="pet-note" value="{{form.note}}" data-field="note" bindinput="onField" bindblur="flushDraft" bindlinechange="measureSheet" maxlength="500" placeholder="爱吃什么，有什么小习惯" auto-height /></view>
+            </block>
+            <button wx:if="{{form.id}}" class="gogo-button danger-button" bindtap="deletePet" disabled="{{busy}}">删除宠物</button>
+          </block>
+
+          <block wx:if="{{sheet === 'record'}}">
+            <text class="owner-label">{{editorPetName || (pet ? pet.name : '')}}</text>
+            <view class="kind-grid"><button wx:for="{{kinds}}" wx:key="id" class="gogo-button kind-item {{form.kind === item.id ? 'active' : ''}}" data-kind="{{item.id}}" bindtap="setKind" hover-class="pressed">{{item.label}}</button></view>
+            <view wx:if="{{form.kind === 'weight'}}" class="field weight-field"><label for="record-weight">体重</label><view class="weight-input"><input id="record-weight" type="digit" value="{{form.weight}}" data-field="weight" bindinput="onField" bindblur="flushDraft" placeholder="0.0" /><text>kg</text></view></view>
+            <view class="field"><label for="record-text">{{form.kind === 'diary' || form.kind === 'note' ? '写点什么' : '补一句 · 选填'}}</label><textarea id="record-text" value="{{form.text}}" data-field="text" bindinput="onField" bindblur="flushDraft" bindlinechange="measureSheet" maxlength="4000" placeholder="今天发生了什么小事" auto-height /></view>
+            <view class="attachments"><view wx:for="{{form.media}}" wx:key="id" class="attachment"><image wx:if="{{item.type === 'image' || item.poster}}" src="{{item.type === 'video' ? item.poster : item.path}}" mode="aspectFill" /><image wx:else class="attachment-placeholder" src="{{icons['video']}}" /><text wx:if="{{item.type === 'video'}}" class="attachment-video">▷</text><button class="gogo-button remove-attachment" data-index="{{index}}" bindtap="removeAttachment" disabled="{{busy}}" aria-label="移除第{{index + 1}}个附件">×</button></view><button wx:if="{{form.media.length < 9}}" class="gogo-button add-attachment" bindtap="addAttachment" disabled="{{busy}}" aria-label="添加照片或视频"><image class="icon" src="{{icons['image']}}" /><text>照片 / 视频</text></button></view>
+            <view class="date-fields"><view class="field"><text>日期</text><picker mode="date" value="{{form.date}}" end="{{today}}" data-field="date" bindchange="onField"><view class="picker-value">{{form.date}}</view></picker></view><view class="field"><text>时间</text><picker mode="time" value="{{form.time}}" data-field="time" bindchange="onField"><view class="picker-value">{{form.time}}</view></picker></view></view>
+          </block>
+
+          <block wx:if="{{sheet === 'reminder'}}">
+            <text class="owner-label">{{editorPetName || (pet ? pet.name : '')}}</text>
+            <view class="field"><label for="reminder-title">提醒事项</label><input id="reminder-title" value="{{form.title}}" data-field="title" bindinput="onField" bindblur="flushDraft" maxlength="40" placeholder="比如：洗澡、驱虫" /></view>
+            <view class="date-fields"><view class="field"><text>日期</text><picker mode="date" value="{{form.date}}" data-field="date" bindchange="onField"><view class="picker-value">{{form.date}}</view></picker></view><view class="field"><text>时间</text><picker mode="time" value="{{form.time}}" data-field="time" bindchange="onField"><view class="picker-value">{{form.time}}</view></picker></view></view>
+            <text class="context-note">当前保存为小程序内待办，尚不会发送微信通知。</text>
+            <button wx:if="{{form.id}}" class="gogo-button danger-button" bindtap="deleteReminder" disabled="{{busy}}">删除提醒</button>
+          </block>
+
+          <block wx:if="{{sheet === 'detail'}}">
+            <view class="detail-meta"><text>{{detail.dateLabel}} · {{detail.time}}</text><text>{{detail.label}}</text></view>
+            <text wx:if="{{detail.kind === 'weight'}}" class="detail-weight">{{detail.weight}} kg</text>
+            <text wx:if="{{detail.text}}" class="detail-text" selectable>{{detail.text}}</text>
+            <view wx:for="{{detail.media}}" wx:key="id" class="detail-media"><video wx:if="{{item.type === 'video'}}" id="video-{{index}}" src="{{item.path}}" poster="{{item.poster}}" controls object-fit="contain" autoplay="{{false}}" binderror="videoError" /><image wx:else src="{{item.path}}" mode="widthFix" data-path="{{item.path}}" bindtap="previewImage" binderror="imageError" /></view>
+            <text wx:if="{{mediaError}}" class="field-error">{{mediaError}}</text>
+            <view class="detail-actions"><button class="gogo-button text-button" bindtap="editRecord" disabled="{{busy}}">改一改</button><button class="gogo-button text-button danger" bindtap="deleteRecord" disabled="{{busy}}">删除</button></view>
+          </block>
+
+          <block wx:if="{{sheet === 'storage'}}"><text class="storage-number">{{storageMB}} <text>MB</text></text><text class="context-note">照片与视频保存在这台手机，本地版上限为 150 MB。</text><text class="context-note">清除微信或小程序数据可能丢失内容。云备份尚未接入，请保留手机相册里的原件。</text><text class="context-note">照片单张最多 20 MB，视频单段最多 60 MB。</text></block>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <view wx:if="{{privacyRequested}}" class="privacy-backdrop" catchtouchmove="noop"><view class="privacy-card"><text class="sheet-title">留下你们的小瞬间</text><text class="context-note">选择照片或拍照前，请阅读并同意隐私保护指引。</text><button class="gogo-button text-button" bindtap="openPrivacy">查看隐私保护指引</button><button id="privacy-agree" class="gogo-button primary" open-type="agreePrivacyAuthorization" bindagreeprivacyauthorization="agreePrivacy">同意并继续</button><button class="gogo-button text-button" bindtap="declinePrivacy">暂不使用</button></view></view>
+</view>

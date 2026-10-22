@@ -1,0 +1,8 @@
+{
+  "jsFiles": 10,
+  "handlers": 50,
+  "wxmlExpressions": 270,
+  "sourcePackageBytes": 895056,
+  "checks": "passed",
+  "wechatCompiler": "not run by this static check; verify separately with WCC and the target Developer Tools"
+}

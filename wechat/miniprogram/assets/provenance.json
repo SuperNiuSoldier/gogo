@@ -1,0 +1,17 @@
+{
+  "font": "Xiaolai Regular 3.126",
+  "license": "SIL OFL 1.1",
+  "subsetCharacters": 1124,
+  "woffBytes": 256776,
+  "fallbackCharacters": [],
+  "icons": "Existing Doodle Icons MIT and Go狗 original care marks",
+  "source": "design/prototypes/gogo-lettering",
+  "iconsPerTheme": 25,
+  "rouqiuTheme": {
+    "version": 2,
+    "source": "Built-in image_gen, based on user-provided Rouqiu style/character reference",
+    "manifest": "rouqiu/manifest.json",
+    "originals": "design/assets/rouqiu-theme/generated-v2",
+    "note": "Generated theme artwork, not user album records"
+  }
+}

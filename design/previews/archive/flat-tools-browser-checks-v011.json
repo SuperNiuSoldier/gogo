@@ -1,0 +1,27 @@
+{
+  "version": "v0.11",
+  "checks": [
+    "Twelve labeled features are visible together; duplicate overview pages and story entries removed; both themes fit small screens.",
+    "All nine record entries open the form directly; required values validated, wash/groom share one entry, save returns to the menu.",
+    "Hidden invalid fields expand and receive focus; back/keep/discard and global pet switching protect unfinished records.",
+    "Profile opens for direct editing, optional fields stay folded, validation reveals errors, and names remain attached to the correct dog.",
+    "Reminder creation shows two essential fields; general completion is immediate and reversible, while health completion still requires actual details.",
+    "Quick recording, shared menu back navigation and complete history retain every category; editing/undo and dog ownership remain correct.",
+    "Photo memories and the separate animated dog remain reachable; reduced-motion switching and returning work."
+  ],
+  "layouts": [
+    "tools rouqiu 320x900",
+    "tools gelin 320x900",
+    "tools rouqiu 375x900",
+    "tools gelin 375x900",
+    "tools rouqiu 390x900",
+    "tools gelin 390x900",
+    "tools rouqiu 844x390",
+    "tools gelin 844x390",
+    "weight rouqiu",
+    "weight gelin",
+    "reminder rouqiu",
+    "reminder gelin"
+  ],
+  "runtimeErrors": []
+}

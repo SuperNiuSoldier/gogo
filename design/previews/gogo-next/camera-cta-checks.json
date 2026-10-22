@@ -1,0 +1,10 @@
+{
+  "threeVariants": true,
+  "threeTabNavigation": true,
+  "albumCTAOpensCaptureChooser": true,
+  "cancelCreatesNoRecord": true,
+  "captureCreatesOnePhotoDiary": true,
+  "timelineRetained": true,
+  "errors": [],
+  "realCameraVerified": false
+}

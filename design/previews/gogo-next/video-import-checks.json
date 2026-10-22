@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "gogo-next variant 1: cancel, import, poster/duration, paused by default, play/seek/close, video keyboard does not switch design, diary and timeline, dark mode",
+    "gogo-next variant 2: cancel, import, poster/duration, paused by default, play/seek/close, video keyboard does not switch design, diary and timeline, dark mode",
+    "gogo-next variant 3: cancel, import, poster/duration, paused by default, play/seek/close, video keyboard does not switch design, diary and timeline, dark mode",
+    "gogo-lettering variant 1: cancel, import, poster/duration, paused by default, play/seek/close, video keyboard does not switch design, diary and timeline, dark mode",
+    "gogo-lettering variant 2: cancel, import, poster/duration, paused by default, play/seek/close, video keyboard does not switch design, diary and timeline, dark mode",
+    "gogo-lettering variant 3: cancel, import, poster/duration, paused by default, play/seek/close, video keyboard does not switch design, diary and timeline, dark mode",
+    "Mixed batch: valid photo + video each create one diary; corrupt video skipped and temporary URL released",
+    "Accepted blob survives variant remount; previous player pauses, video reopens",
+    "Unreadable video creates no record and leaks no object URL",
+    "Pet switched during import: entire mixed batch stays with initiating pet",
+    "Weight attachments remain photos; quick camera remains image capture and creates one diary",
+    "Video diary edits keep attachment and do not duplicate record; hiding page pauses playback",
+    "Video viewer fits 320/375/390 px phone widths at standard and 125% text size"
+  ],
+  "errors": [],
+  "testedCodec": "Canvas-generated WebM / VP8, approximately 1.6 seconds",
+  "realPhoneCameraAndMOVHEVCVerified": false,
+  "dataPersistsAfterReload": false
+}

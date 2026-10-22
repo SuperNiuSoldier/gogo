@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+  "installedAt": "2026-10-12",
+  "destination": ".agents/skills",
+  "skills": [
+    "animate",
+    "animate-expo",
+    "animation-performance",
+    "animation-vocabulary",
+    "apple-design",
+    "ask-sonner",
+    "break-ui",
+    "emil-design-eng",
+    "find-animation-opportunities",
+    "improve-animations",
+    "mobile-native",
+    "pick-ui-library",
+    "prototype",
+    "review-animations",
+    "write-swift"
+  ],
+  "upstreamFilesVerified": 23,
+  "metadataValid": 15,
+  "localReferencesValid": 14,
+  "licensesCopied": 15,
+  "sourceModified": false,
+  "uiUxProMaxPresent": true
+}

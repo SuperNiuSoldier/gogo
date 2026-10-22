@@ -1,0 +1,14 @@
+{
+  "description": "Go狗 · 宠物生活记录",
+  "miniprogramRoot": "miniprogram/",
+  "compileType": "miniprogram",
+  "appid": "wxc34d8754afb8569f",
+  "projectname": "godog",
+  "setting": {
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "urlCheck": true
+  },
+  "packOptions": {"ignore": [], "include": []}
+}

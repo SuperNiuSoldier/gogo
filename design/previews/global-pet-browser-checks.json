@@ -1,0 +1,28 @@
+{
+  "version": "global pet context v0.10",
+  "checks": [
+    "Only the header switches pets; memory filters removed; global chrome remains interactive with keyboard access.",
+    "Camera action saves one photo memory directly; optional edit/undo retains owner; switching does not migrate photos.",
+    "Cancel and corrupt camera results create no empty memories and preserve existing photos.",
+    "Capture waits for a pending switch decision even if decoding finishes; keep saves to the original dog, discard saves to neither.",
+    "Draft keep/discard and theme independence; same-pet click is a no-op; quick records and history follow only the global pet.",
+    "Health, reminders and the single current-pet profile refresh in place; their edits retain the original owner.",
+    "Photo manager and animated dog follow the header in place; old action timers cannot paint the previous dog."
+  ],
+  "layouts": [
+    "memories rouqiu 320x900",
+    "memories gelin 320x900",
+    "memories rouqiu 375x900",
+    "memories gelin 375x900",
+    "memories rouqiu 390x900",
+    "memories gelin 390x900",
+    "memories rouqiu 844x390",
+    "memories gelin 844x390",
+    "care rouqiu",
+    "editor rouqiu",
+    "care gelin",
+    "editor gelin"
+  ],
+  "runtimeErrors": [],
+  "camera": "Desktop file chooser and capture attribute verified; physical iOS camera, permission denial, HEIC and persistent storage not verified."
+}

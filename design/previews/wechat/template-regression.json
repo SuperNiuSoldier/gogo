@@ -1,0 +1,20 @@
+[
+  {
+    "case": "original",
+    "wccExitCode": 2,
+    "wccDiagnostics": "pages/home/index.wxml:56:23: Bad attr `wx:if` with message: unexpected `;` at pos36.\n",
+    "staticExitCode": 1
+  },
+  {
+    "case": "remaining-error-banner",
+    "wccExitCode": 2,
+    "wccDiagnostics": "pages/home/index.wxml:116:17: Bad attr `wx:if` with message: unexpected `;` at pos10.\n",
+    "staticExitCode": 1
+  },
+  {
+    "case": "fixed",
+    "wccExitCode": 0,
+    "wccDiagnostics": "",
+    "staticExitCode": 0
+  }
+]

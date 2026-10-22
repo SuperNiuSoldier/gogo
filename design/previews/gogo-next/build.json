@@ -1,0 +1,14 @@
+{
+  "preview": "design/previews/gogo-next.html",
+  "bytes": 512767,
+  "directions": [
+    "影集",
+    "手账",
+    "日常"
+  ],
+  "fontCharacters": 487,
+  "fontMissingCharacters": [],
+  "pickerStylesMatchSkill": true,
+  "photoSource": "Existing AI-generated samples, not the original dog photographs",
+  "data": "Shared across variants, in memory only"
+}

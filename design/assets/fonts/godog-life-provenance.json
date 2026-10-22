@@ -1,0 +1,10 @@
+{
+  "upstream": "https://github.com/Warren2060/ChillRound",
+  "source": "https://raw.githubusercontent.com/Warren2060/ChillRound/main/ChillRoundF%20v3.0.ttf",
+  "sourceSha256": "7dae804b344f7bc1a1c8426b9515e9b54d7baac3e123263d0bae94d0a305a732",
+  "derivedFamily": "GoDog Life Round",
+  "license": "SIL Open Font License 1.1",
+  "derivedFile": "godog-life-round.woff2",
+  "buildScript": "scripts/build_life_preview.py",
+  "note": "Subset and renamed for four-page prototype. Glyph count is reported in design/previews/gogo-life/build.json; arbitrary user text falls back to the device's system Chinese font."
+}

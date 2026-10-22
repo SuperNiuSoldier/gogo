@@ -1,0 +1,33 @@
+{
+  "version": "v0.12",
+  "checks": [
+    "Both distinct dog cutouts render; paper home and side-by-side memory cards fit 320–844px without overlapping text or controls.",
+    "Weight view uses saved values only: empty state, one point, ordered trend, exact differences, per-dog isolation and undo all pass.",
+    "Long pet names retain their full text alternative and fit the cover at small widths.",
+    "User photo selection replaces only that dog’s illustration; manual flow, saved position and reduced-motion controls remain usable."
+  ],
+  "layouts": [
+    "home rouqiu 320x900",
+    "memories rouqiu 320x900",
+    "home gelin 320x900",
+    "memories gelin 320x900",
+    "home rouqiu 375x900",
+    "memories rouqiu 375x900",
+    "home gelin 375x900",
+    "memories gelin 375x900",
+    "home rouqiu 390x900",
+    "memories rouqiu 390x900",
+    "home gelin 390x900",
+    "memories gelin 390x900",
+    "home rouqiu 844x390",
+    "memories rouqiu 844x390",
+    "home gelin 844x390",
+    "memories gelin 844x390",
+    "weight rouqiu 320",
+    "weight gelin 320",
+    "long pet name 320",
+    "selected photos 320"
+  ],
+  "runtimeErrors": [],
+  "weightScreenshot": "Synthetic browser inputs, visibly marked test data; not actual dog weights."
+}

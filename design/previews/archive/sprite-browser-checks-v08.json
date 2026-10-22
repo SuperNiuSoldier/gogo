@@ -1,0 +1,33 @@
+{
+  "version": "articulated sprites v0.8",
+  "checks": [
+    "idle blink changes pixels and restores neutral",
+    "click plays articulated paw poses",
+    "no whole-image CSS transforms",
+    "card and hitbox stay fixed",
+    "repeat taps do not queue greetings",
+    "paused idle still permits clicked action",
+    "theme does not swap character",
+    "pet switch cancels old callbacks",
+    "petting creates no records",
+    "off-page cancellation",
+    "real offscreen pause",
+    "background pause (simulated)",
+    "live reduced motion",
+    "keyboard activation",
+    "idle pause preference restored"
+  ],
+  "layouts": [
+    "rouqiu 320x900",
+    "gelin 320x900",
+    "rouqiu 375x900",
+    "gelin 375x900",
+    "rouqiu 390x900",
+    "gelin 390x900",
+    "rouqiu 844x390",
+    "gelin 844x390"
+  ],
+  "javascriptErrors": [],
+  "nativeIOSVerified": false,
+  "sourceFramesVisuallyReviewed": true
+}

@@ -1,0 +1,32 @@
+# macOS / Xcode
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.dSYM/
+
+# Local credentials and signing
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+*.pem
+*.key
+secrets/
+design/references/private/
+
+# Editor / local dependencies
+.idea/
+.vscode/
+.swiftpm/
+.tools/
+__pycache__/
+*.py[cod]
+
+# WeChat local settings and dependencies
+node_modules/
+project.private.config.json
+wechat/dist/

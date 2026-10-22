@@ -1,0 +1,63 @@
+{
+  "scope": "three-direction browser prototype",
+  "checks": [
+    {
+      "check": "Isolated picker loads with the album, embedded rounded font and three choices",
+      "passed": true
+    },
+    {
+      "check": "cinema: all four pages in both themes, top-level pet context",
+      "passed": true
+    },
+    {
+      "check": "cinema: quick record/undo, diary and frost scroll, weight, reminder, photo viewer and playback",
+      "passed": true
+    },
+    {
+      "check": "journal: all four pages in both themes, top-level pet context",
+      "passed": true
+    },
+    {
+      "check": "journal: quick record/undo, diary and frost scroll, weight, reminder, photo viewer and playback",
+      "passed": true
+    },
+    {
+      "check": "everyday: all four pages in both themes, top-level pet context",
+      "passed": true
+    },
+    {
+      "check": "everyday: quick record/undo, diary and frost scroll, weight, reminder, photo viewer and playback",
+      "passed": true
+    },
+    {
+      "check": "Picker keyboard shortcuts, input exclusion, remount cleanup and draft/data continuity",
+      "passed": true
+    },
+    {
+      "check": "File chooser result enters the current pet album and photo diary",
+      "passed": true
+    },
+    {
+      "check": "cinema: empty/single/many states and 320/375/390px × standard/125% text",
+      "passed": true
+    },
+    {
+      "check": "journal: empty/single/many states and 320/375/390px × standard/125% text",
+      "passed": true
+    },
+    {
+      "check": "everyday: empty/single/many states and 320/375/390px × standard/125% text",
+      "passed": true
+    },
+    {
+      "check": "Reduced motion retains navigation, disables autoplay and keeps the active diary clear",
+      "passed": true
+    },
+    {
+      "check": "No JavaScript errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "iOSDeviceVerified": false
+}

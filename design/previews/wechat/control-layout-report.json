@@ -1,0 +1,1643 @@
+{
+  "kind": "browser component-default/conflict fixture; not WeChat runtime",
+  "checks": [
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "album-empty-light",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "album-empty-light",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "album-empty-light",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "album-empty-dark",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "album-empty-dark",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "album-empty-dark",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "album-light",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "album-light",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "album-light",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "reminders-dark",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 145,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "reminders-dark",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 161,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "reminders-dark",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 181,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "many-pets-light",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "many-pets-light",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 320,
+      "screen": "many-pets-light",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 206,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "album-empty-light",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "album-empty-light",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "album-empty-light",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "album-empty-dark",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "album-empty-dark",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "album-empty-dark",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "album-light",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "album-light",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "album-light",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "reminders-dark",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 145,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "reminders-dark",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 161,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "reminders-dark",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 181,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "many-pets-light",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "many-pets-light",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 375,
+      "screen": "many-pets-light",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 251,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "album-empty-light",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "album-empty-light",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "album-empty-light",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "album-empty-dark",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "album-empty-dark",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "album-empty-dark",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "album-light",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "album-light",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "album-light",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "reminders-dark",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 145,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "reminders-dark",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 161,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "reminders-dark",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 181,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "many-pets-light",
+      "textScale": 1,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 58,
+          "height": 40.59375
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 136,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "many-pets-light",
+      "textScale": 1.25,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 72,
+          "height": 50.75
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 140,
+          "height": 48
+        }
+      }
+    },
+    {
+      "case": "fixed-source-with-v2-conflict",
+      "width": 430,
+      "screen": "many-pets-light",
+      "textScale": 1.5,
+      "issues": [],
+      "sizes": {
+        "title": {
+          "width": 88,
+          "height": 60.890625
+        },
+        "petRail": 306,
+        "icon-0": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-1": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-2": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-3": {
+          "width": 44,
+          "height": 44
+        },
+        "icon-4": {
+          "width": 44,
+          "height": 44
+        },
+        "primary-0": {
+          "width": 155,
+          "height": 48
+        }
+      }
+    }
+  ]
+}

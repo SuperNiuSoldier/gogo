@@ -1,0 +1,322 @@
+[
+  {
+    "width": 320,
+    "page": "album",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 320,
+    "docWidth": 320,
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "album",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 320,
+    "docWidth": 320,
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "prints",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 320,
+    "docWidth": 320,
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "prints",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 320,
+    "docWidth": 320,
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "weight",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 320,
+    "docWidth": 320,
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "weight",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 320,
+    "docWidth": 320,
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "reminders",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 320,
+    "docWidth": 320,
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "reminders",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 320,
+    "docWidth": 320,
+    "viewport": 320
+  },
+  {
+    "width": 375,
+    "page": "album",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 375,
+    "docWidth": 375,
+    "viewport": 375
+  },
+  {
+    "width": 375,
+    "page": "album",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 375,
+    "docWidth": 375,
+    "viewport": 375
+  },
+  {
+    "width": 375,
+    "page": "prints",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 375,
+    "docWidth": 375,
+    "viewport": 375
+  },
+  {
+    "width": 375,
+    "page": "prints",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 375,
+    "docWidth": 375,
+    "viewport": 375
+  },
+  {
+    "width": 375,
+    "page": "weight",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 375,
+    "docWidth": 375,
+    "viewport": 375
+  },
+  {
+    "width": 375,
+    "page": "weight",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 375,
+    "docWidth": 375,
+    "viewport": 375
+  },
+  {
+    "width": 375,
+    "page": "reminders",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 375,
+    "docWidth": 375,
+    "viewport": 375
+  },
+  {
+    "width": 375,
+    "page": "reminders",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 375,
+    "docWidth": 375,
+    "viewport": 375
+  },
+  {
+    "width": 390,
+    "page": "album",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 390,
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "album",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 390,
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "prints",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 390,
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "prints",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 390,
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "weight",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 390,
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "weight",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 390,
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "reminders",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 390,
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "reminders",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 390,
+    "viewport": 390
+  },
+  {
+    "width": 844,
+    "page": "album",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 844,
+    "viewport": 844
+  },
+  {
+    "width": 844,
+    "page": "album",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 844,
+    "viewport": 844
+  },
+  {
+    "width": 844,
+    "page": "prints",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 844,
+    "viewport": 844
+  },
+  {
+    "width": 844,
+    "page": "prints",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 844,
+    "viewport": 844
+  },
+  {
+    "width": 844,
+    "page": "weight",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 844,
+    "viewport": 844
+  },
+  {
+    "width": 844,
+    "page": "weight",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 844,
+    "viewport": 844
+  },
+  {
+    "width": 844,
+    "page": "reminders",
+    "text": "standard",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 844,
+    "viewport": 844
+  },
+  {
+    "width": 844,
+    "page": "reminders",
+    "text": "large",
+    "horizontal": [],
+    "targets": [],
+    "rootWidth": 390,
+    "docWidth": 844,
+    "viewport": 844
+  }
+]

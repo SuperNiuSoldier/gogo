@@ -1,0 +1,15 @@
+{
+  "scope": "browser SVG loading and visual review; not WeChat runtime",
+  "checks": [
+    {
+      "theme": "light",
+      "peeLoaded": true,
+      "poopLoaded": true
+    },
+    {
+      "theme": "dark",
+      "peeLoaded": true,
+      "poopLoaded": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<div id="gogo-exploration" class="viz-dotted-background">
+  <nav class="proto-picker" data-position="top" aria-label="Prototype variants">
+    <span class="proto-picker-highlight" aria-hidden="true"></span>
+    <button class="proto-picker-item" data-active aria-current="true">影集</button>
+    <button class="proto-picker-item">手账</button>
+    <button class="proto-picker-item">日常</button>
+  </nav>
+  <div id="stage"></div>
+</div>
+<template id="gogo-next-template">
+  <div id="gogo-next" data-theme="light" aria-label="Go狗新版交互原型">
+    <div class="app-shell">
+      <div class="app-base">
+        <header class="pet-bar">
+          <div class="pet-switch" aria-label="当前狗狗"></div>
+          <button type="button" class="icon-button pet-add" data-action="pet-add" aria-label="添加宠物"></button>
+          <button type="button" class="icon-button theme-button" data-action="theme" aria-label="切换主题"></button>
+        </header>
+        <main class="app-view"></main>
+        <nav class="bottom-nav" aria-label="主导航"></nav>
+      </div>
+      <div class="overlay-host"></div>
+      <div class="toast" role="status" aria-live="polite" hidden></div>
+      <input class="media-input" type="file" accept="image/*,video/*" multiple hidden aria-label="从相册选择照片或视频">
+      <input class="camera-input" type="file" accept="image/*" capture="environment" hidden aria-label="拍照留个瞬间">
+      <input class="avatar-input" type="file" accept="image/*" hidden aria-label="选择宠物头像">
+    </div>
+  </div>
+</template>

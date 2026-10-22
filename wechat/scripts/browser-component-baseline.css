@@ -1,0 +1,31 @@
+/* Browser failure-injection fixture, NOT the WeChat runtime or an SDK copy.
+   Model the native button baseline and the v2 width/attribute-selector conflict
+   that a bare HTML <button> misses. Keep this outside miniprogram/. */
+button {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.55555556;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #000;
+  background: #f8f8f8;
+  border: 0;
+}
+button::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: inherit;
+  pointer-events: none;
+}
+button[disabled]:not([type]) { color: rgba(0,0,0,.3); background: #f7f7f7; }

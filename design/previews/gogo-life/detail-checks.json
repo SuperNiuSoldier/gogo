@@ -1,0 +1,11 @@
+{
+  "width": 375,
+  "checks": {
+    "three_short_editors_screenshotted": true,
+    "modal_tab_focus_contained": true,
+    "empty_weight_rejected": true,
+    "empty_album_import_is_distinct_from_camera": true,
+    "cancel_import_creates_no_photo": true,
+    "empty_prints_has_one_primary_action": true
+  }
+}

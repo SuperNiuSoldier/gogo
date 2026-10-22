@@ -1,0 +1,3 @@
+/* Deliberately injected higher-specificity platform-style conflict.
+   This models the width/margins/padding, not every v2 component feature. */
+button:not([size='mini']) { width: 184px; margin-left: auto; margin-right: auto; padding: 8px 24px; }

@@ -1,0 +1,38 @@
+{
+  "desktopWheel": true,
+  "cylindricalWheel": {
+    "perspective": "900px",
+    "cards": [
+      {
+        "centerY": 200.0955581665039,
+        "tilt": 0.898794,
+        "depth": -128.078,
+        "visible": "visible"
+      },
+      {
+        "centerY": 376,
+        "tilt": 0,
+        "depth": 0,
+        "visible": "visible"
+      },
+      {
+        "centerY": 552.2567443847656,
+        "tilt": -0.898794,
+        "depth": -128.078,
+        "visible": "visible"
+      }
+    ]
+  },
+  "keyboard": true,
+  "detailReturn": true,
+  "themeRetainsPosition": true,
+  "petResetsPosition": true,
+  "reducedMotion": true,
+  "largeTextWidths": [
+    320,
+    375,
+    390
+  ],
+  "singleEmpty": true,
+  "errors": []
+}

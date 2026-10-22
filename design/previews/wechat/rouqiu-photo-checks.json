@@ -1,0 +1,9 @@
+{
+  "generation": "built-in image_gen, 13 separate generations from user visual reference",
+  "assets": 13,
+  "runtimeAssetBytes": 429602,
+  "sourcePackageBytes": 895056,
+  "legacyRuntimeSvg": 0,
+  "backgroundPickerAdded": false,
+  "nativeWeChatRuntimeVerified": false
+}

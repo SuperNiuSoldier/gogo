@@ -1,0 +1,7 @@
+{
+  "family": "GoDog Next Round",
+  "source": ".tools/ChillRoundF-v3.ttf",
+  "license": "design/assets/fonts/ChillRound-LICENSE.txt",
+  "derived": "Renamed WOFF2 subset for three-direction prototype",
+  "date": "2026-10-12"
+}

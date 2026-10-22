@@ -1,0 +1,42 @@
+{
+  "version": "0.5",
+  "note": "根据用户照片目视提炼并为界面可读性调整，并非逐像素取色。",
+  "themes": {
+    "rouqiu": {
+      "name": "肉球 · 奶白",
+      "background": "#F7F4EE",
+      "surface": "#FFFDFA",
+      "surfaceMuted": "#ECE7DE",
+      "foreground": "#282B29",
+      "secondary": "#626760",
+      "accent": "#3F655B",
+      "onAccent": "#FFFFFF",
+      "accentSoft": "#E3ECE6",
+      "border": "#D8D2C7",
+      "controlBorder": "#8A8E83",
+      "error": "#A33436",
+      "coat": "#F2E8D5",
+      "heroSurface": "#EDE7DC",
+      "warmSurface": "#EEE2CE",
+      "warmForeground": "#6D5132"
+    },
+    "gelin": {
+      "name": "格林 · 黑棕",
+      "background": "#17191B",
+      "surface": "#24272A",
+      "surfaceMuted": "#303337",
+      "foreground": "#F5EEE3",
+      "secondary": "#BDB6AB",
+      "accent": "#D5AD78",
+      "onAccent": "#201B15",
+      "accentSoft": "#3B3126",
+      "border": "#41454A",
+      "controlBorder": "#8C8F93",
+      "error": "#FFB0AD",
+      "coat": "#161719",
+      "heroSurface": "#2B2926",
+      "warmSurface": "#38302A",
+      "warmForeground": "#DEC39C"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "Dark theme button renders the dark palette and saves the selection.",
+    "Saved theme restores after reload.",
+    "Private, flat and model theme states restore without resetting the selected dog.",
+    "Missing or invalid fields preserve the active theme and pet.",
+    "Theme restoration leaves an open draft and its dog unchanged."
+  ],
+  "runtimeErrors": []
+}

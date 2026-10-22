@@ -1,0 +1,76 @@
+{
+  "layouts": [
+    {
+      "viewport": "320x900",
+      "theme": "rouqiu",
+      "horizontalOverflow": false,
+      "allVisibleTargetsAtLeast44px": true
+    },
+    {
+      "viewport": "320x900",
+      "theme": "gelin",
+      "horizontalOverflow": false,
+      "allVisibleTargetsAtLeast44px": true
+    },
+    {
+      "viewport": "375x900",
+      "theme": "rouqiu",
+      "horizontalOverflow": false,
+      "allVisibleTargetsAtLeast44px": true
+    },
+    {
+      "viewport": "375x900",
+      "theme": "gelin",
+      "horizontalOverflow": false,
+      "allVisibleTargetsAtLeast44px": true
+    },
+    {
+      "viewport": "390x900",
+      "theme": "rouqiu",
+      "horizontalOverflow": false,
+      "allVisibleTargetsAtLeast44px": true
+    },
+    {
+      "viewport": "390x900",
+      "theme": "gelin",
+      "horizontalOverflow": false,
+      "allVisibleTargetsAtLeast44px": true
+    },
+    {
+      "viewport": "768x1024",
+      "theme": "rouqiu",
+      "horizontalOverflow": false,
+      "allVisibleTargetsAtLeast44px": true
+    },
+    {
+      "viewport": "768x1024",
+      "theme": "gelin",
+      "horizontalOverflow": false,
+      "allVisibleTargetsAtLeast44px": true
+    },
+    {
+      "viewport": "844x390",
+      "theme": "rouqiu",
+      "horizontalOverflow": false,
+      "allVisibleTargetsAtLeast44px": true
+    },
+    {
+      "viewport": "844x390",
+      "theme": "gelin",
+      "horizontalOverflow": false,
+      "allVisibleTargetsAtLeast44px": true
+    }
+  ],
+  "checks": [
+    "theme switch",
+    "44px targets",
+    "draft preservation",
+    "record owner isolation",
+    "blank text error",
+    "draft cancel confirmation",
+    "three page navigation",
+    "reduced motion"
+  ],
+  "javascriptErrors": [],
+  "nativeIOSVerified": false
+}

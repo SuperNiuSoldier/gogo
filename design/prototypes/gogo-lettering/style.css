@@ -1,0 +1,58 @@
+@font-face{font-family:GoDogHand;src:url('__HAND_FONT__') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:GoDogPen;src:url('__PEN_FONT__') format('woff2');font-weight:400;font-display:swap}
+#gogo-lettering[data-lettering=hand]{--writing:GoDogHand;--accent:#5f674c;font-family:GoDogHand,GoDogNext,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:calc(17px * var(--size))}
+#gogo-lettering[data-lettering=pen]{--writing:GoDogPen;--accent:#5f674c;font-family:GoDogPen,GoDogNext,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:calc(16px * var(--size))}
+#gogo-lettering[data-theme=dark]:not([data-lettering=baseline]){--accent:#d7b383}
+#gogo-lettering:not([data-lettering=baseline]){font-synthesis:none;--drawn-line:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 8' preserveAspectRatio='none'%3E%3Cpath d='M1 4.4C38 5.8 75 2.5 115 4.1S190 5.8 239 4.1 313 3.4 359 4.8' fill='none' stroke='black' stroke-width='1.1' stroke-linecap='round'/%3E%3C/svg%3E")}
+#gogo-lettering:not([data-lettering=baseline]) .app-base{height:760px}
+#gogo-lettering:not([data-lettering=baseline]) .pet-switch{background:none;gap:8px;padding:0}
+#gogo-lettering:not([data-lettering=baseline]) .pet-tab{border:1px solid transparent;font-size:calc(15px * var(--size));gap:7px;padding:5px 12px 5px 5px}
+#gogo-lettering:not([data-lettering=baseline]) .pet-tab[aria-pressed=true]{background:transparent;border-color:var(--accent);box-shadow:none;border-radius:48% 52% 49% 51% / 46% 45% 55% 54%}
+#gogo-lettering:not([data-lettering=baseline]) .theme-button{background:none;box-shadow:none}
+#gogo-lettering:not([data-lettering=baseline]) .page-heading{padding-top:15px;padding-bottom:16px}
+#gogo-lettering:not([data-lettering=baseline]) h1{font-size:calc(29px * var(--size));letter-spacing:0;line-height:1.35}
+#gogo-lettering:not([data-lettering=baseline]) h2{letter-spacing:0}
+#gogo-lettering:not([data-lettering=baseline]) h3{font-size:calc(18px * var(--size));line-height:1.45}
+#gogo-lettering:not([data-lettering=baseline]) small{font-size:calc(13px * var(--size));line-height:1.55}
+#gogo-lettering:not([data-lettering=baseline]) strong{font-weight:400}
+#gogo-lettering .doodle-icon{width:23px;height:23px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+#gogo-lettering:not([data-lettering=baseline]) .bottom-nav{background:var(--paper);border-radius:25px;box-shadow:0 0 0 1px var(--line),0 4px 16px #18211b08;backdrop-filter:none;-webkit-backdrop-filter:none;padding:7px 6px;min-height:70px}
+#gogo-lettering:not([data-lettering=baseline]) .nav-item{font-size:calc(13px * var(--size));gap:4px}
+#gogo-lettering:not([data-lettering=baseline]) .nav-symbol{border-radius:49% 51% 43% 57% / 51% 44% 56% 49%;width:48px;height:28px}
+#gogo-lettering:not([data-lettering=baseline]) .pill-button{font-size:calc(17px * var(--size));box-shadow:none;min-height:46px;padding:0 23px;gap:7px;border-radius:26px 24px 25px 23px}
+#gogo-lettering:not([data-lettering=baseline]) .pill-button .doodle-icon{width:20px;height:20px}
+#gogo-lettering:not([data-lettering=baseline]) .quiet-button{font-size:calc(15px * var(--size))}
+#gogo-lettering:not([data-lettering=baseline]) .reminder-body{padding-top:3px}
+#gogo-lettering:not([data-lettering=baseline]) .calendar-heading{margin-bottom:9px}
+#gogo-lettering:not([data-lettering=baseline]) .month-switch span{font-size:calc(17px * var(--size))}
+#gogo-lettering:not([data-lettering=baseline]) .weekday{font-size:calc(13px * var(--size));padding-bottom:7px}
+#gogo-lettering:not([data-lettering=baseline]) .day{font-size:calc(19px * var(--size));border-radius:48% 52% 46% 54% / 55% 48% 52% 45%}
+#gogo-lettering:not([data-lettering=baseline]) .day[aria-pressed=true]{color:var(--ink);background:var(--soft)}
+#gogo-lettering:not([data-lettering=baseline]) .day small{font-size:calc(11px * var(--size));color:var(--muted)}
+#gogo-lettering:not([data-lettering=baseline]) .calendar-expand{margin:0}
+#gogo-lettering:not([data-lettering=baseline]) .calendar-expand .doodle-icon{width:17px;height:17px}
+#gogo-lettering:not([data-lettering=baseline]) .reminder-date{position:relative;gap:8px;font-size:calc(15px * var(--size));padding-bottom:18px;margin:4px 0 5px}
+#gogo-lettering:not([data-lettering=baseline]) .reminder-date:after{content:"";position:absolute;bottom:3px;left:0;right:0;height:8px;background:var(--muted);opacity:.6;mask-image:var(--drawn-line);mask-size:100% 100%;-webkit-mask-image:var(--drawn-line);-webkit-mask-size:100% 100%}
+#gogo-lettering:not([data-lettering=baseline]) .reminder-row{border:0;border-radius:0;box-shadow:none;background:none;margin:0;padding:4px 2px;gap:12px}
+#gogo-lettering:not([data-lettering=baseline]) .reminder-open{gap:16px;padding:8px 0}
+#gogo-lettering:not([data-lettering=baseline]) .reminder-open>span{min-width:0}
+#gogo-lettering:not([data-lettering=baseline]) .reminder-open>svg{background:none;padding:0;width:24px;height:24px;color:var(--muted)}
+#gogo-lettering:not([data-lettering=baseline]) .reminder-open small{margin-top:3px}
+#gogo-lettering:not([data-lettering=baseline]) .reminder-row.done .reminder-open{color:var(--muted)}
+#gogo-lettering:not([data-lettering=baseline]) .check-button{color:var(--muted)}
+#gogo-lettering:not([data-lettering=baseline]) .check-button .doodle-icon{width:24px;height:24px;stroke-width:2.4}
+#gogo-lettering:not([data-lettering=baseline]) .page-cta{padding-top:12px;padding-bottom:108px}
+#gogo-lettering:not([data-lettering=baseline]) .sheet{border-radius:25px 26px 0 0;box-shadow:0 -5px 24px #0001}
+#gogo-lettering:not([data-lettering=baseline]) .sheet-header{padding:13px 11px 23px}
+#gogo-lettering:not([data-lettering=baseline]) .sheet-header h2{font-size:calc(21px * var(--size))}
+#gogo-lettering:not([data-lettering=baseline]) .sheet-header [data-action=save-editor]{font-size:calc(16px * var(--size));border-radius:50% 46% 49% 47% / 49% 53% 47% 51%}
+#gogo-lettering:not([data-lettering=baseline]) .form-field{font-size:calc(15px * var(--size));margin-bottom:22px}
+#gogo-lettering:not([data-lettering=baseline]) input:not([type=file]),#gogo-lettering:not([data-lettering=baseline]) textarea,#gogo-lettering:not([data-lettering=baseline]) select{font-family:var(--writing),GoDogNext,sans-serif;font-size:calc(18px * var(--size));border-radius:12px;background:var(--bg);border-color:var(--control-border)}
+#gogo-lettering:not([data-lettering=baseline]) input::placeholder{color:var(--muted);opacity:1}
+#gogo-lettering:not([data-lettering=baseline]) .diary-date strong{font-family:var(--writing),sans-serif;letter-spacing:0}
+#gogo-lettering[data-lettering=pen] .reminder-open h3{font-size:calc(18px * var(--size))}
+#gogo-lettering[data-lettering=pen] .doodle-icon{stroke-width:2.35}
+#gogo-lettering[data-lettering=pen] .day[aria-pressed=true]{background:none;box-shadow:inset 0 0 0 1px var(--accent)}
+#gogo-lettering[data-lettering=pen] .pill-button{background:var(--paper);color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+#gogo-lettering[data-lettering=pen] .pet-tab[aria-pressed=true]{border-radius:21px}
+@media(max-width:360px){#gogo-lettering:not([data-lettering=baseline]) .app-base{height:760px}#gogo-lettering:not([data-lettering=baseline]) .form-row{grid-template-columns:1fr}#gogo-lettering:not([data-lettering=baseline]) .month-switch span{font-size:calc(15px * var(--size))}}

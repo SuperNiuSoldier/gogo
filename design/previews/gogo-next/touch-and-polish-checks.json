@@ -1,0 +1,27 @@
+{
+  "chromiumTouchEmulation": true,
+  "checks": [
+    {
+      "variant": "cinema",
+      "nativeTouchScroll": true,
+      "noAccidentalDetail": true,
+      "tapAndReturn": true
+    },
+    {
+      "variant": "journal",
+      "nativeTouchScroll": true,
+      "noAccidentalDetail": true,
+      "tapAndReturn": true
+    },
+    {
+      "variant": "everyday",
+      "nativeTouchScroll": true,
+      "noAccidentalDetail": true,
+      "tapAndReturn": true
+    }
+  ],
+  "cinemaHorizontalSwipe": true,
+  "compactMeasurementPhotos": true,
+  "errors": [],
+  "iOSDeviceVerified": false
+}

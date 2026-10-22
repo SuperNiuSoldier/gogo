@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-12",
+  "scope": "Documentation validation only; no product behavior tested",
+  "markdownFilesChecked": 64,
+  "localLinksChecked": 293,
+  "brokenLinks": [],
+  "currentPRDFiles": 18,
+  "archivedPRDFiles": 13,
+  "prototypeBytes": 932539,
+  "documentedCoverage": {
+    "C": 9,
+    "F": 16,
+    "A": 20
+  },
+  "nativeProductTestsExecuted": false,
+  "visualPrototypeChanged": false
+}

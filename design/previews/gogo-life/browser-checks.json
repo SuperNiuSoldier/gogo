@@ -1,0 +1,67 @@
+{
+  "scope": "four-page browser visual prototype",
+  "checks": [
+    {
+      "check": "Five entries, default album, one pet selector, embedded Chinese font",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Independent themes and global pet context on all four pages; eight screenshots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Daily quick recording and undo change the history",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Diary add/edit, shared photo reference, dirty-sheet protection and input retention",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Weight add, chart derived from measurements, pet isolation, delete and restore",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reminder add, complete/undo, month/week navigation and pet isolation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Photo browsing, playback, pause on focus and reduced-motion behavior",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "File selection adds one image and one photo diary to the captured pet only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Empty/one/many content states; no fake diary stacks or one-point trend",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "320/375/390 px and landscape container; 125% text; all main-page touch targets ≥44px",
+      "passed": true,
+      "detail": "32 combinations. This is not iOS Dynamic Type or safe-area validation."
+    },
+    {
+      "check": "Memory book preview uses current data; long diary retained in full detail",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No JavaScript runtime errors",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "runtimeErrors": [],
+  "nativeChecks": "not executed"
+}

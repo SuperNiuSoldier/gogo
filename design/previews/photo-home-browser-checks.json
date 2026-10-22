@@ -1,0 +1,48 @@
+{
+  "version": "photo-first home v0.9",
+  "checks": [
+    "Photo stage dominates home; functional cards hidden; both themes and dog identities independent.",
+    "Sheet closes by Escape; traps keyboard focus; restores opener; background inert.",
+    "Five quick records, double-tap guard and ID-based undo still work across dog changes.",
+    "Diary validation, save, keep editing, scrim dismissal and explicit draft discard.",
+    "Health numeric validation, reminders/atomic undo, profile dirty dismissal and rename stable ID.",
+    "Articulated character interaction preserved in play sheet; closing stops playback.",
+    "Multi-photo import, 5-second automatic transition and outgoing image cleanup.",
+    "Manual navigation pauses autoplay; explicit play resumes; open sheets suspend timers.",
+    "Hover, simulated document background and real scroll out of viewport suspend autoplay.",
+    "Separate pet photo collections; theme does not change photos; reduced motion permits instant manual changes.",
+    "Corrupt import preserves existing photos; removal handles one and zero photos safely.",
+    "Closing a pending import cancels old callbacks; neither dog receives those photos."
+  ],
+  "layouts": [
+    "home rouqiu 320x900",
+    "home gelin 320x900",
+    "home rouqiu 375x900",
+    "home gelin 375x900",
+    "home rouqiu 390x900",
+    "home gelin 390x900",
+    "home rouqiu 768x1024",
+    "home gelin 768x1024",
+    "home rouqiu 844x390",
+    "home gelin 844x390",
+    "care sheet",
+    "care rouqiu 320x900",
+    "editor rouqiu 320x900",
+    "care gelin 320x900",
+    "editor gelin 320x900",
+    "care rouqiu 375x900",
+    "editor rouqiu 375x900",
+    "care gelin 375x900",
+    "editor gelin 375x900",
+    "care rouqiu 844x390",
+    "editor rouqiu 844x390",
+    "care gelin 844x390",
+    "editor gelin 844x390"
+  ],
+  "runtimeErrors": [],
+  "limits": [
+    "Browser preview only; real dog source photos unavailable on server.",
+    "Fixture uploads test interactions, not authentic photo composition.",
+    "Native VoiceOver, Dynamic Type and iOS performance not verified."
+  ]
+}

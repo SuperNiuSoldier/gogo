@@ -1,0 +1,37 @@
+{
+  "preview": "design/previews/gogo-lettering.html",
+  "bytes": 767391,
+  "fonts": [
+    {
+      "source": "Existing project ChillRound source",
+      "sourceSha256": "7dae804b344f7bc1a1c8426b9515e9b54d7baac3e123263d0bae94d0a305a732",
+      "subset": "design/assets/fonts/godog-lettering-round.woff2",
+      "renamedFamily": "GoDog Lettering Round",
+      "license": "ChillRound-LICENSE.txt",
+      "characters": 483,
+      "missing": []
+    },
+    {
+      "source": "https://github.com/lxgw/kose-font/releases/tag/v3.126",
+      "sourceSha256": "e2f68daf0e72777a8cf58bc83de1b98634b251e537ddbfca24b0ae50d1802da2",
+      "subset": "design/assets/fonts/godog-lettering-hand.woff2",
+      "renamedFamily": "GoDog Lettering Hand",
+      "license": "Xiaolai-OFL.txt",
+      "characters": 483,
+      "missing": []
+    },
+    {
+      "source": "https://github.com/lxgw/LxgwWenKai/releases/tag/v1.522",
+      "sourceSha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+      "subset": "design/assets/fonts/godog-lettering-pen.woff2",
+      "renamedFamily": "GoDog Lettering Pen",
+      "license": "LXGWWenKai-OFL.txt",
+      "characters": 483,
+      "missing": []
+    }
+  ],
+  "engineSource": "design/prototypes/gogo-next/app.js",
+  "engineSha256": "bdc58b6522c576c981fe4b3926f047c524403576bb132b9bddd9eb2c50482209",
+  "pickerStylesMatchSkill": true,
+  "scope": "Reminder lettering and icon comparison; in-memory data; existing three-tab flows reused"
+}

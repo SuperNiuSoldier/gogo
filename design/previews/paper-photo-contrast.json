@@ -1,0 +1,58 @@
+[
+  {
+    "pair": "light body on paper",
+    "foreground": "#282B29",
+    "background": "#FFFDFA",
+    "contrast": 14.09,
+    "minimum": 4.5
+  },
+  {
+    "pair": "light muted on paper",
+    "foreground": "#626760",
+    "background": "#FFFDFA",
+    "contrast": 5.7,
+    "minimum": 4.5
+  },
+  {
+    "pair": "light accent on tape",
+    "foreground": "#3F655B",
+    "background": "#EEECE1",
+    "contrast": 5.5,
+    "minimum": 4.5
+  },
+  {
+    "pair": "light active nav",
+    "foreground": "#3F655B",
+    "background": "#E3ECE6",
+    "contrast": 5.4,
+    "minimum": 4.5
+  },
+  {
+    "pair": "dark body on paper",
+    "foreground": "#F5EEE3",
+    "background": "#24272A",
+    "contrast": 13.03,
+    "minimum": 4.5
+  },
+  {
+    "pair": "dark muted on paper",
+    "foreground": "#BDB6AB",
+    "background": "#24272A",
+    "contrast": 7.47,
+    "minimum": 4.5
+  },
+  {
+    "pair": "dark note",
+    "foreground": "#D5AD78",
+    "background": "#303337",
+    "contrast": 6.09,
+    "minimum": 4.5
+  },
+  {
+    "pair": "dark active nav",
+    "foreground": "#D5AD78",
+    "background": "#3B3126",
+    "contrast": 6.1,
+    "minimum": 4.5
+  }
+]

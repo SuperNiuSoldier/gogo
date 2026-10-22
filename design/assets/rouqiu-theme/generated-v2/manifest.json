@@ -1,0 +1,132 @@
+{
+  "name": "肉球",
+  "version": 2,
+  "source": "built-in image_gen; per-asset reference-based generation",
+  "prompts": "design/assets/rouqiu-theme/generated-v2/prompts.json",
+  "format": "WebP; original PNG masters retained in design",
+  "reference": "User-provided Rouqiu visual reference, kept outside the runtime package",
+  "modes": [
+    "light",
+    "dark"
+  ],
+  "note": "Shared natural fur colors in both modes; no inversion. Generated artwork, not user album records.",
+  "assets": [
+    {
+      "name": "food",
+      "file": "photo/food.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 24324,
+      "transparentPixels": 17504,
+      "sourceSha256": "ed708c547a48646e7d458523165f55ab3922307eee18067353bf6a5894204d05"
+    },
+    {
+      "name": "water",
+      "file": "photo/water.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 22720,
+      "transparentPixels": 22714,
+      "sourceSha256": "c8455024a6841eba384392165384761ad98c17dcaec019de90e8a625c1c49d01"
+    },
+    {
+      "name": "pee",
+      "file": "photo/pee.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 22030,
+      "transparentPixels": 28795,
+      "sourceSha256": "b64d2febd7603961b7e42ef377a2589eacc33ee659fcd4dbc731cc91962247b7"
+    },
+    {
+      "name": "poop",
+      "file": "photo/poop.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 23008,
+      "transparentPixels": 27441,
+      "sourceSha256": "257495b6cf151ea98e637a1122a932f2e26423b18c6b3e28899928fa8964beab"
+    },
+    {
+      "name": "footprints",
+      "file": "photo/footprints.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 23068,
+      "transparentPixels": 24727,
+      "sourceSha256": "e8d9fadb86c8b7ddb3ac882662c32e46513adae89fec163c88d793d9fe97a921"
+    },
+    {
+      "name": "notebook",
+      "file": "photo/notebook.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 21684,
+      "transparentPixels": 23614,
+      "sourceSha256": "6696560c4332bf4ad42690b188c0a35372427247e6367ac0b3a8cf54487221a8"
+    },
+    {
+      "name": "scale",
+      "file": "photo/scale.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 17744,
+      "transparentPixels": 32800,
+      "sourceSha256": "2c02151d02895f58c6e03f66304ab8ed454de637a1511d83a4f9ecda1edf078e"
+    },
+    {
+      "name": "pencil",
+      "file": "photo/pencil.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 22552,
+      "transparentPixels": 25406,
+      "sourceSha256": "574fa77b87f26cb299c6268018ede6349c81e5ebeb0e7b6f7888d66db9b33c9c"
+    },
+    {
+      "name": "image",
+      "file": "photo/image.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 24758,
+      "transparentPixels": 19972,
+      "sourceSha256": "3e2899f3b889e75ffce4b42cf89e6706724572d5d2b542455fb278539bed5e87"
+    },
+    {
+      "name": "bell",
+      "file": "photo/bell.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 20274,
+      "transparentPixels": 30265,
+      "sourceSha256": "db5b1dd5a1aeaab0b190a37a2ae54b1420d026cc57ec88a91dd3fab92ba0668a"
+    },
+    {
+      "name": "logo",
+      "file": "photo/logo.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 58552,
+      "transparentPixels": 85834,
+      "sourceSha256": "7d51c16507e055401434c870f7562664462aaf9e75bc86a71642ffc3947f35bb"
+    },
+    {
+      "name": "sleep",
+      "file": "photo/sleep.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 58528,
+      "transparentPixels": 88453,
+      "sourceSha256": "c0c68709614a0e60f49b323db3a0789327ccc11e1197928d812f5bb62688b1cc"
+    },
+    {
+      "name": "background",
+      "file": "photo/background.webp",
+      "width": 720,
+      "height": 960,
+      "bytes": 90360,
+      "transparentPixels": 0,
+      "sourceSha256": "040aa649763674d5e604b74fe4441d40f00211a2ffaa5824392a1c54964c139e"
+    }
+  ]
+}

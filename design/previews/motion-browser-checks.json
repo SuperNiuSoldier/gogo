@@ -1,0 +1,31 @@
+{
+  "version": "hero motion v0.7",
+  "checks": [
+    "two distinct idle motions",
+    "tap response and repeated taps",
+    "pause freezes motion and cancels reaction",
+    "paused interaction keeps text response",
+    "pet switch clears reaction",
+    "theme does not change pet artwork",
+    "petting creates no care records",
+    "off-page pause",
+    "document visibility pause (simulated)",
+    "live reduced-motion preference",
+    "keyboard activation",
+    "pause preference restored",
+    "non-overlapping 44px controls"
+  ],
+  "layouts": [
+    "rouqiu 320x900",
+    "gelin 320x900",
+    "rouqiu 375x900",
+    "gelin 375x900",
+    "rouqiu 390x900",
+    "gelin 390x900",
+    "rouqiu 844x390",
+    "gelin 844x390"
+  ],
+  "javascriptErrors": [],
+  "nativeIOSVerified": false,
+  "characterRigImplemented": false
+}

@@ -1,0 +1,13 @@
+{
+  "pages": ["pages/home/index"],
+  "window": {
+    "navigationBarTitleText": "Go狗",
+    "navigationBarBackgroundColor": "#f7f5ef",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f7f5ef",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json"
+}

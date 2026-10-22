@@ -1,0 +1,9 @@
+{
+  "upstream": "https://github.com/Warren2060/ChillRound",
+  "source": "https://raw.githubusercontent.com/Warren2060/ChillRound/main/ChillRoundF%20v3.0.ttf",
+  "sha256": "7dae804b344f7bc1a1c8426b9515e9b54d7baac3e123263d0bae94d0a305a732",
+  "derivedFamily": "GoDog Round Preview",
+  "glyphCharacters": 482,
+  "license": "SIL Open Font License 1.1",
+  "note": "Subset and renamed for this preview; arbitrary diary characters fall back to the system font."
+}

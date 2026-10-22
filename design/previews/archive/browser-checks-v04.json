@@ -1,0 +1,41 @@
+{
+  "version": "interaction v0.4 / visual v0.3",
+  "layouts": [
+    "today rouqiu 320x900",
+    "today gelin 320x900",
+    "today rouqiu 375x900",
+    "today gelin 375x900",
+    "today rouqiu 390x900",
+    "today gelin 390x900",
+    "today rouqiu 768x1024",
+    "today gelin 768x1024",
+    "today rouqiu 844x390",
+    "today gelin 844x390",
+    "feedback small phone",
+    "diary editor dark small phone",
+    "more small phone",
+    "profile small phone",
+    "health filter small phone"
+  ],
+  "checks": [
+    "five one-tap care actions",
+    "specific record undo after pet switch",
+    "650 ms accidental double tap guard",
+    "later repeated events allowed",
+    "backdating excludes today count",
+    "undo edit restores original",
+    "required diary text",
+    "draft owner and text survive theme switch",
+    "discard and keep draft",
+    "positive weight validation",
+    "medication requires actual details",
+    "health and diary filters",
+    "pet isolation",
+    "delete confirmation and cancel",
+    "reduced motion",
+    "embedded rounded font"
+  ],
+  "javascriptErrors": [],
+  "nativeIOSVerified": false,
+  "persistentStorageVerified": false
+}

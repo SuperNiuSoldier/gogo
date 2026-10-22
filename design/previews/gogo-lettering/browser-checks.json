@@ -1,0 +1,160 @@
+{
+  "checks": [
+    "hand: font loaded, both themes, create/edit/complete/undo, pet isolation",
+    "pen: font loaded, both themes, create/edit/complete/undo, pet isolation",
+    "baseline: font loaded, both themes, create/edit/complete/undo, pet isolation",
+    "Variant switching retains draft, selected date, month mode, saved data; typing ignores picker shortcuts",
+    "Three-tab navigation, album capture action and connected mixed timeline retained",
+    "18 small-phone layout cases, enlarged text, editable fields and 44px-wide controls",
+    "Landscape host remains scrollable to the sheet actions",
+    "Reduced motion: sheet opens without positional animation"
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "variant": "hand",
+      "fontScale": "standard",
+      "overflow": false,
+      "thirdFullyVisible": true,
+      "smallTargets": []
+    },
+    {
+      "width": 320,
+      "variant": "hand",
+      "fontScale": "large",
+      "overflow": false,
+      "thirdFullyVisible": false,
+      "smallTargets": []
+    },
+    {
+      "width": 320,
+      "variant": "pen",
+      "fontScale": "standard",
+      "overflow": false,
+      "thirdFullyVisible": true,
+      "smallTargets": []
+    },
+    {
+      "width": 320,
+      "variant": "pen",
+      "fontScale": "large",
+      "overflow": false,
+      "thirdFullyVisible": false,
+      "smallTargets": []
+    },
+    {
+      "width": 320,
+      "variant": "baseline",
+      "fontScale": "standard",
+      "overflow": false,
+      "thirdFullyVisible": false,
+      "smallTargets": []
+    },
+    {
+      "width": 320,
+      "variant": "baseline",
+      "fontScale": "large",
+      "overflow": false,
+      "thirdFullyVisible": false,
+      "smallTargets": []
+    },
+    {
+      "width": 375,
+      "variant": "hand",
+      "fontScale": "standard",
+      "overflow": false,
+      "thirdFullyVisible": true,
+      "smallTargets": []
+    },
+    {
+      "width": 375,
+      "variant": "hand",
+      "fontScale": "large",
+      "overflow": false,
+      "thirdFullyVisible": false,
+      "smallTargets": []
+    },
+    {
+      "width": 375,
+      "variant": "pen",
+      "fontScale": "standard",
+      "overflow": false,
+      "thirdFullyVisible": true,
+      "smallTargets": []
+    },
+    {
+      "width": 375,
+      "variant": "pen",
+      "fontScale": "large",
+      "overflow": false,
+      "thirdFullyVisible": false,
+      "smallTargets": []
+    },
+    {
+      "width": 375,
+      "variant": "baseline",
+      "fontScale": "standard",
+      "overflow": false,
+      "thirdFullyVisible": true,
+      "smallTargets": []
+    },
+    {
+      "width": 375,
+      "variant": "baseline",
+      "fontScale": "large",
+      "overflow": false,
+      "thirdFullyVisible": false,
+      "smallTargets": []
+    },
+    {
+      "width": 390,
+      "variant": "hand",
+      "fontScale": "standard",
+      "overflow": false,
+      "thirdFullyVisible": true,
+      "smallTargets": []
+    },
+    {
+      "width": 390,
+      "variant": "hand",
+      "fontScale": "large",
+      "overflow": false,
+      "thirdFullyVisible": false,
+      "smallTargets": []
+    },
+    {
+      "width": 390,
+      "variant": "pen",
+      "fontScale": "standard",
+      "overflow": false,
+      "thirdFullyVisible": true,
+      "smallTargets": []
+    },
+    {
+      "width": 390,
+      "variant": "pen",
+      "fontScale": "large",
+      "overflow": false,
+      "thirdFullyVisible": false,
+      "smallTargets": []
+    },
+    {
+      "width": 390,
+      "variant": "baseline",
+      "fontScale": "standard",
+      "overflow": false,
+      "thirdFullyVisible": true,
+      "smallTargets": []
+    },
+    {
+      "width": 390,
+      "variant": "baseline",
+      "fontScale": "large",
+      "overflow": false,
+      "thirdFullyVisible": false,
+      "smallTargets": []
+    }
+  ],
+  "errors": [],
+  "realDeviceVerified": false
+}

@@ -1,0 +1,39 @@
+✔ controller: first pet → photo import → restart → edit → last pet deletion (48.951931ms)
+✔ controller: all three pages follow only the top pet selection and keep independent theme (21.982288ms)
+✔ controller: unfinished draft keeps the original pet on resume and never publishes early (16.453162ms)
+✔ controller: failed save retains input and does not show a success toast (9.638264ms)
+✔ controller: discarded attachment draft cleans staged files while keeping published media (11.95041ms)
+✔ controller: camera cancellation is silent; duplicate clicks are locked during import (9.619189ms)
+✔ controller: privacy agreement resolves correctly; rejection does not create media (4.265935ms)
+✔ controller: photo flow never automatically plays a video, and stops on hide (7.821207ms)
+✔ controller: avatar is a profile file, not an album record, and removal survives restart (16.204247ms)
+✔ controller: long histories use bounded summaries; older pages and full detail remain accessible (837.583672ms)
+✔ controller: Rouqiu skin switches independently of brightness and pet, and survives restart (14.248524ms)
+✔ controller: pre-skin v1 data opens without losing photos, records, or its dark preference (3.739574ms)
+✔ fresh library has no invented pets or records; preferences persist (20.507909ms)
+✔ pet editing keeps stable ownership; records and reminders stay separate (3.034962ms)
+✔ name and real calendar dates validate without changing persisted state (0.641015ms)
+✔ storage failure never publishes a change and leaves old records intact (1.810021ms)
+✔ damaged and newer data are rejected and never reset silently (0.406932ms)
+✔ draft survives restart, clears atomically on save, and is not a published record (2.405623ms)
+✔ photo and video imports retain copied originals and poster after restart (2.645593ms)
+✔ failed batch removes partial copies and leaves no phantom records (1.380394ms)
+✔ metadata failure after copying media rolls back only staged copies (1.266053ms)
+✔ pet switches during import never reassign the captured owner (0.965171ms)
+✔ pet deletion during asynchronous import cancels the batch and releases files (0.800239ms)
+✔ video poster failure also removes the already copied original (0.334081ms)
+✔ file budget uses real file size and serializes concurrent imports (0.61606ms)
+✔ deleting one pet preserves shared files, the other pet, and its reminders (1.015183ms)
+✔ garbage collection preserves drafts and ignores paths outside owned directory (0.710002ms)
+✔ failed unlink is retried by next launch sweep without reviving deleted data (0.623968ms)
+✔ record validations reject empty prose, invalid times, future dates and invalid weights (0.78133ms)
+✔ in-app reminders complete and revert without inventing notifications or records (0.55591ms)
+✔ calendar handles leap day, month boundaries, selected date and per-pet dots (0.338718ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1138.120718

@@ -1,0 +1,80 @@
+{
+  "checks": [
+    "gogo-next variant 1: required/blank name, empty new pet, theme isolation, record/weight/reminder ownership, stable rename, delete counts/cancel/Escape/confirm, other pet unchanged, no resurrection on remount",
+    "gogo-next variant 2: required/blank name, empty new pet, theme isolation, record/weight/reminder ownership, stable rename, delete counts/cancel/Escape/confirm, other pet unchanged, no resurrection on remount",
+    "gogo-next variant 3: required/blank name, empty new pet, theme isolation, record/weight/reminder ownership, stable rename, delete counts/cancel/Escape/confirm, other pet unchanged, no resurrection on remount",
+    "gogo-lettering variant 1: required/blank name, empty new pet, theme isolation, record/weight/reminder ownership, stable rename, delete counts/cancel/Escape/confirm, other pet unchanged, no resurrection on remount",
+    "gogo-lettering variant 2: required/blank name, empty new pet, theme isolation, record/weight/reminder ownership, stable rename, delete counts/cancel/Escape/confirm, other pet unchanged, no resurrection on remount",
+    "gogo-lettering variant 3: required/blank name, empty new pet, theme isolation, record/weight/reminder ownership, stable rename, delete counts/cancel/Escape/confirm, other pet unchanged, no resurrection on remount",
+    "Dirty profile cancel/continue/discard; name/date validation; uploaded avatar stays separate from album, removable and retained across variants; HTML-like names escaped",
+    "Delete releases video URL, preserves other pet; delete last pet, empty onboarding survives remount, new pet can import",
+    "Pending mixed video/photo import cannot recreate records after initiating pet is deleted; temporary video URL released",
+    "Unsaved new-pet draft survives variant switch and creates only one profile",
+    "12 small-phone layouts: multi-pet horizontal rail, visible add button, 125% type, profile and deletion sheets in both themes; reduced motion respected"
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "scale": "1",
+      "dark": false
+    },
+    {
+      "width": 320,
+      "scale": "1",
+      "dark": true
+    },
+    {
+      "width": 320,
+      "scale": "1.25",
+      "dark": false
+    },
+    {
+      "width": 320,
+      "scale": "1.25",
+      "dark": true
+    },
+    {
+      "width": 375,
+      "scale": "1",
+      "dark": false
+    },
+    {
+      "width": 375,
+      "scale": "1",
+      "dark": true
+    },
+    {
+      "width": 375,
+      "scale": "1.25",
+      "dark": false
+    },
+    {
+      "width": 375,
+      "scale": "1.25",
+      "dark": true
+    },
+    {
+      "width": 390,
+      "scale": "1",
+      "dark": false
+    },
+    {
+      "width": 390,
+      "scale": "1",
+      "dark": true
+    },
+    {
+      "width": 390,
+      "scale": "1.25",
+      "dark": false
+    },
+    {
+      "width": 390,
+      "scale": "1.25",
+      "dark": true
+    }
+  ],
+  "errors": [],
+  "realDeviceVerified": false,
+  "persistedAfterReload": false
+}

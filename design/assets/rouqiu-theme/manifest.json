@@ -1,0 +1,29 @@
+{
+  "name": "肉球",
+  "version": 1,
+  "format": "SVG",
+  "viewBox": "0 0 96 96",
+  "source": "Original project vector drawings; scripts/build_rouqiu_theme.py",
+  "reference": "User-described Rouqiu and previously supplied Samoyed photographs: upright ears, fluffy white cheeks, dark nose, sage bandana.",
+  "assets": [
+    "logo",
+    "sleep",
+    "food",
+    "water",
+    "pee",
+    "poop",
+    "footprints",
+    "notebook",
+    "scale",
+    "pencil",
+    "image",
+    "bell"
+  ],
+  "modes": [
+    "light",
+    "dark"
+  ],
+  "photos": "Awaiting real Rouqiu reference files from the user. Create a stylized built-in background with imagegen from those references. No photo-picker or user-configurable background.",
+  "status": "v1 rejected by user; historical SVG draft only",
+  "current": "generated-v2/manifest.json"
+}

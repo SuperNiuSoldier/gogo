@@ -1,0 +1,21 @@
+{
+  "package": "miniprogram-compiler@0.2.3",
+  "source": "https://registry.npmjs.org/miniprogram-compiler/-/miniprogram-compiler-0.2.3.tgz",
+  "versions": {
+    "wcc": "Wechat WXML Compiler, version v0.5vv_20200413_syb_scopedata",
+    "wcsc": "*** WeChat Stylesheet Compiler, Version v0.4me_20190328_db ***"
+  },
+  "checks": {
+    "wxml": {
+      "exitCode": 0,
+      "outputBytes": 107930,
+      "diagnostics": ""
+    },
+    "wxss": {
+      "exitCode": 0,
+      "outputBytes": 47979,
+      "diagnostics": ""
+    }
+  },
+  "scope": "Local legacy WCC/WCSC syntax compilation; current Windows Developer Tools and real devices not verified"
+}

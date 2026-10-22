@@ -1,0 +1,32 @@
+[
+  {
+    "pair": "light body",
+    "contrast": 13.16,
+    "passesAA": true
+  },
+  {
+    "pair": "light secondary",
+    "contrast": 5.15,
+    "passesAA": true
+  },
+  {
+    "pair": "light action",
+    "contrast": 5.95,
+    "passesAA": true
+  },
+  {
+    "pair": "dark body",
+    "contrast": 15.39,
+    "passesAA": true
+  },
+  {
+    "pair": "dark secondary",
+    "contrast": 8.97,
+    "passesAA": true
+  },
+  {
+    "pair": "dark action",
+    "contrast": 8.16,
+    "passesAA": true
+  }
+]
