@@ -22,4 +22,4 @@
 - `scripts`：素材构建、布局验证与工程打包辅助脚本。
 - `ios`：原生路线的历史占位，当前首发不依赖它。
 
-从[开发路线](doc/development-plan.md)查看阶段状态。GitHub 认证与读取已验证，本地仍未初始化 Git 或推送；约定见 [agent.md](agent.md)。
+从[开发路线](doc/development-plan.md)查看阶段状态。项目已于 2026-10-22 推送至 [SuperNiuSoldier/gogo](https://github.com/SuperNiuSoldier/gogo) 的 `main` 分支，保留原有历史和许可证；后续提交与推送约定见 [agent.md](agent.md)。
